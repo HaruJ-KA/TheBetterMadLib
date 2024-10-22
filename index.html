@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script defer src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Zen Dots"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Zen Kurenaido"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mad Lib</title>
+  </head>
+  <body>
+    <h1>Mad Lib</h1>
+    <hr />
+    <h2>Mad Lib Instructions</h2>
+    <p>Fill in all of the input boxes, then click the "Mad Lib" button.</p>
+
+    <div id="words">
+      <ol type="I">
+        <li>
+          Plural <span class="word">Noun</span>:
+          <input id="word1" type="text" />
+        </li>
+        <li>
+          <span class="word">Adjective</span>: <input id="word2" type="text" />
+        </li>
+        <li>
+          Present Tense <span class="word">Verb</span>:
+          <input id="word3" type="text" />
+        </li>
+        <li>
+          <span class="word">Noun</span>: <input id="word4" type="text" />
+        </li>
+      </ol>
+    </div>
+    <p><button id="b1">Mad Lib</button> <button id="b2">Mad Lib 2</button></p>
+
+    <hr />
+
+    <h2>Mad Lib Results</h2>
+    <div><p id="output"></p></div>
+  </body>
+</html>
